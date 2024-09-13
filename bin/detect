@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f "$1/build_static.sh" ]; then
+    echo "-----> Build Static Buildpack!"
+    exit 0
+else
+    exit 1
+fi
